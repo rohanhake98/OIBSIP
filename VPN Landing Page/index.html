@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExpressVPN Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #2C2C2C;
+        }
+
+        header {
+            text-align: center;
+            padding: 50px 20px;
+            background: linear-gradient(180deg, #8e89b0, #332799);
+            color: white;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+        }
+
+        header p {
+            font-size: 1rem;
+            margin: 10px 0 20px;
+        }
+
+        header .btn {
+            background-color: #3B8B3B;
+            color: white;
+            padding: 12px 30px;
+            font-size: 1rem;
+            text-decoration: none;
+            border-radius: 25px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .features {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Three columns */
+            gap: 20px;
+            text-align: center;
+        }
+
+        .feature {
+            padding: 20px;
+            background: #F9F9F9;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .feature img {
+            max-width: 80px;
+            margin-bottom: 15px;
+        }
+
+        .feature h3 {
+            margin: 15px 0 10px;
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .feature p {
+            font-size: 0.95rem;
+            color: #555;
+        }
+
+        .map-section {
+            background: #F9F9F9;
+            text-align: center;
+            padding: 50px 20px;
+        }
+
+        .map-section h2 {
+            font-size: 2rem;
+            margin-bottom: 15px;
+            color: #2C2C2C;
+        }
+
+        .map-section p {
+            font-size: 1rem;
+            margin-bottom: 20px;
+        }
+
+        .map {
+            max-width: 100%;
+            height: auto;
+            margin: 0 auto;
+            max-height: 300px;
+        }
+
+        footer {
+            background: #2C2C2C;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        footer a {
+            color: #FFD3A3;
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .features {
+                grid-template-columns: repeat(2, 1fr); /* Two columns for tablets */
+            }
+        }
+
+        @media (max-width: 480px) {
+            .features {
+                grid-template-columns: 1fr; /* One column for mobile */
+            }
+
+            header h1 {
+                font-size: 1.8rem;
+            }
+
+            header p {
+                font-size: 0.8rem;
+            }
+
+            header .btn {
+                padding: 8px 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>The VPN That Just Works</h1>
+    <p>Go further with the #1 trusted leader in VPN</p>
+    <p>"Your gateway to a secure and unrestricted internet experience."</p>
+    <a href="#" class="btn">Get ExpressVPN &#8594;</a>
+</header>
+
+<section class="features">
+    <div class="feature">
+        <img src="worldmap.png" alt="Secure Access">
+        <h3>Secure Access, Worldwide</h3>
+        <p>Connect reliably from anywhere, to anywhere.</p>
+    </div>
+    <div class="feature">
+        <img src="safeinternet.png" alt="One Click">
+        <h3>One Click to a Safer Internet</h3>
+        <p>Keep your personal information private and secure.</p>
+    </div>
+    <div class="feature">
+        <img src="alldevice.png" alt="Devices">
+        <h3>Works on Every Device</h3>
+        <p>Use ExpressVPN on your phone, tablet, or computer.</p>
+    </div>
+    <div class="feature">
+        <img src="safety.png" alt="Data Protection">
+        <h3>Stronger Data Protection</h3>
+        <p>Take charge of your online privacy with encryption.</p>
+    </div>
+    <div class="feature">
+        <img src="globe.png" alt="Seamless">
+        <h3>Works Seamlessly Everywhere</h3>
+        <p>Experience the internet as it was meant to be.</p>
+    </div>
+    <div class="feature">
+        <img src="speed.png" alt="Speed">
+        <h3>Lightning-Quick Connectivity</h3>
+        <p>Next-generation VPN technology ensures speed.</p>
+    </div>
+    
+</section>
+
+<section class="map-section">
+    <h2>Ultra-Fast Servers Around the Globe</h2>
+    <p><b>160</b> Locations | <b>94</b> Countries | Unlimited Bandwidth (&#8734;)</p>
+    <img src="footermap.png" alt="Map" class="map">
+</section>
+
+<footer>
+    <p>&copy; 2025 ExpressVPN. All rights reserved. <a href="#">Privacy Policy</a></p>
+</footer>
+
+</body>
+</html>

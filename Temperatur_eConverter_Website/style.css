@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 300px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+  
+  .converter label {
+    display: block;
+    margin: 10px 0 5px;
+  }
+  
+  .converter input,
+  .converter select,
+  .converter button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .converter button {
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .converter button:hover {
+    background-color: #0056b3;
+  }
+  
+  .result {
+    font-size: 1.2rem;
+    color: #333;
+    margin-top: 10px;
+  }
+  body {
+    background-color: #df7878;
+  }
+  
