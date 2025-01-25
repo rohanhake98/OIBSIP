@@ -30,12 +30,3 @@ This repository contains three projects:
 
 ---
 
-## Media Demos
-
-### Portfolio Demo
-[![Portfolio Demo](https://img.youtube.com/vi/<VIDEO_ID>/0.jpg)](videos/portfolio-demo.mp4)
-
-### VPN Landing Page Demo
-[![VPN Landing Page Demo](https://img.youtube.com/vi/<VIDEO_ID>/0.jpg)](videos/vpn-landing-page-demo.mp4)
-
----
