@@ -26,7 +26,7 @@ This repository contains three projects:
      - User-friendly interface.
      - Real-time conversion.
    - **Preview**:
-     ![Temperature Converter](images/converter.png)
+     ![Temperature Converter](converter.png)
 
 ---
 
